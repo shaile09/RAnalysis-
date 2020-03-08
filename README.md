@@ -1,7 +1,7 @@
 # RAnalysis-
 
-Written Summary 
-MPG Regression 
+
+## MPG Regression 
 In this challenge, we preformed a series of statistical tests and created a technical report that provides our interpretation. Using multiple linear regression, we designed a linear model that predicts the mpg of MechaCar prototypes using a number of variables within the MechaCar mpg dataset.
 Correlation:
 •	We looked at the correlation between vehicle.weight and mpg. We have determined the r-value to be 0.0906831, which is a slight positive correlation. 
@@ -16,8 +16,8 @@ Residuals:
 Coefficients:
               Estimate Std. Error t value Pr(>|t|)    
 (Intercept)    5668.99     812.66   6.976 8.01e-09 ***
-MechaCars$mpg    10.75      17.04   0.631    0.531    
----
+ MechaCars$mpg    10.75      17.04   0.631    0.531    
+ ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 1858 on 48 degrees of freedom
@@ -54,7 +54,7 @@ Is the slope of the linear model considered to be zero? Why or why not?
 	According to the summary output above, p value was small (2.277e-11) indicating significance. In addition, there is strong evidence against the null hypothesis, so we can reject the null hypothesis and the slope is not equal to zero. 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 	No, the linear model does not predict the mpg of MechaCar protypes effectively due to lack of significant variables. This may overfitting in that it may fail to generalize and predict data correctly in the future. 
-Suspension Coil Summary
+## Suspension Coil Summary
 Using the suspension coil test data, we provided a summary of statistics for the suspension coil’s pounds-per-inch variables. We identified the mean, median, variance, and SD (see below).
 
 summary(Suspension)
@@ -71,7 +71,7 @@ In addition, we identified the SD to be 7.892627 and variance to be 62.29356 for
 Suspension Coil T-Test
 Using the same suspension coil data, we determined (used the one-sample t-test) if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch. Below were the results from our analysis. 
 
-One Sample t-test
+## One Sample t-test
 
 data:  Suspension$PSI
 t = -1.8931, df = 149, p-value = 0.06028
@@ -84,7 +84,7 @@ mean of x
 
 Once we calculated our p-value (0.06028), the value is above our significance level and we can say that we do not have sufficient evidence to reject the null hypothesis, and we can say that the suspension coil’s pound-per-inch results are statistically similar from the mean population results of 1,500 pounds per inch.
 
-Design Your Own Study
+## Design Your Own Study
 To design a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market, we would need include additional metrics to our dataset such as cost, fuel efficiency, color options, horsepower, car model, the other vehicles’ data,  etc. With the data, we would compare multiple preform additional statistical tests. 
 
 To compare, cost and fuel efficiency with other comparable vehicles, we would use the linear regression to compare their correlation. We hope to see a linear relationship with cost and fuel and for the slope to be not equal to zero. To do this, we need to collect continues data for MachaCar and other vehicles. 
