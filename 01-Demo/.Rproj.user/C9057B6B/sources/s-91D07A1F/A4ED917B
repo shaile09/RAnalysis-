@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583611986841.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1234996719",
+    "id" : "A4ED917B",
+    "lastKnownWriteTime" : 1583711414,
+    "last_content_update" : 1583711414414,
+    "path" : "~/Demo-001/MechaCarChallenge.RScript",
+    "project_path" : "MechaCarChallenge.RScript",
+    "properties" : {
+        "cursorPosition" : "20,31",
+        "scrollLine" : "16",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

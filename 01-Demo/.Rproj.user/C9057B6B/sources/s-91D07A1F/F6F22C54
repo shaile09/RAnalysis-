@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583693605782.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F6F22C54",
+    "lastKnownWriteTime" : 2293274459704,
+    "last_content_update" : 1583693605782,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B091B695",
+        "caption" : "MechaCars",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=MechaCars&cache_key=B091B695",
+        "displayedObservations" : "50",
+        "environment" : "",
+        "expression" : "MechaCars",
+        "object" : "MechaCars",
+        "preview" : "0",
+        "totalObservations" : "50",
+        "variables" : "6"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

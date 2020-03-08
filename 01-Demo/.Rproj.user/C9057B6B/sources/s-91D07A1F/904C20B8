@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583612599387.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "904C20B8",
+    "lastKnownWriteTime" : 1583611959,
+    "last_content_update" : 1583611959,
+    "path" : "~/Demo-001/Module scripts.R",
+    "project_path" : "Module scripts.R",
+    "properties" : {
+        "cursorPosition" : "186,16",
+        "scrollLine" : "150",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
